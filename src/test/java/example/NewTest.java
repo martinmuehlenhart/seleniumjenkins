@@ -27,6 +27,7 @@ public class NewTest {
         @Test              
         public void testEasy2() {    
             driver.get("http://www.n-tv.de");  
+            
             String title = driver.getTitle();                
             Assert.assertTrue(title.contains("Nachrichten, aktuelle Schlagzeilen und Videos - n-tv.de"));       
         } 
